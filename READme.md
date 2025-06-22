@@ -39,16 +39,13 @@ A modern full-stack web application built for the **AMRR TechSols Assignment** u
 ## 📁 Project Structure
 
 ```text
-AMRR-Assignment/
+AMRR/
 │
-├── backend/              # Express + MongoDB
-│   ├── models/Item.js
-│   ├── routes/items.js
-│   ├── routes/email.js
+├── item-api-server(backend)/              # Express + MongoDB
 │   ├── server.js
 │   └── .env
 │
-├── frontend/             # React App
+├── item-manager(frontend)/             # React App
 │   ├── public/
 │   ├── src/
 │   │   ├── pages/
