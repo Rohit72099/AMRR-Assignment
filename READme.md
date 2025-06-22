@@ -38,28 +38,31 @@ A modern full-stack web application built for the **AMRR TechSols Assignment** u
 
 ## 📁 Project Structure
 
+```text
 AMRR-Assignment/
 │
-├── backend/ # Express + MongoDB
-│ ├── models/Item.js
-│ ├── routes/items.js
-│ ├── routes/email.js
-│ ├── server.js
-│ └── .env
+├── backend/              # Express + MongoDB
+│   ├── models/Item.js
+│   ├── routes/items.js
+│   ├── routes/email.js
+│   ├── server.js
+│   └── .env
 │
-├── frontend/ # React App
-│ ├── src/
-│ │ ├── pages/
-│ │ │ ├── AddItem.jsx
-│ │ │ └── ViewItems.jsx
-│ │ ├── components/ItemModal.jsx
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ └── assets/
-│ └── public/
+├── frontend/             # React App
+│   ├── public/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── AddItem.jsx
+│   │   │   └── ViewItems.jsx
+│   │   ├── components/
+│   │   │   └── ItemModal.jsx
+│   │   ├── assets/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── index.js
 │
 ├── README.md
-└── package.json
+
 
 
 ---
